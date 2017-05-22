@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+
+gem 'dashing'
+gem 'sinatra_cyclist_multi', path: './lib/sinatra_cyclist_multi'
