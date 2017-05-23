@@ -120,12 +120,12 @@ end
 ```
 
 ## Usage
-Now visit one of your configured cycled routes `/#{cycled_route}` to start cycling!
+Now visit one of your configured cycled routes `/_cycle/#{cycled_route}` to start cycling!
 
 You can also specify a duration (in seconds) in the params to the cycle action
 
 ```
-http://sinatra_app.com/_cycle?duration=10
+http://sinatra_app.com/_cycle/#{cycled_route}?duration=10
 ```
 
 /!\ **Do not use this gem with the original, it will conflict** /!\
@@ -141,9 +141,9 @@ You can try with the **Dockerfile** in test folder. Considering you have a worki
 
 There are three cycled routes configured:
 ```
-  http://{docker host ip}:8080/cycle
-  http://{docker host ip}:8080/_cycle
-  http://{docker host ip}:8080/_prod
+  http://{docker host ip}:8080/_cycle/_cycle
+  http://{docker host ip}:8080/_cycle/cycle
+  http://{docker host ip}:8080/_cycle/prod
 ```
 ## Contributing
 
