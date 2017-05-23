@@ -1,4 +1,4 @@
-# SinatraCyclist
+# Sinatra Cyclist Multi
 
 This is a fork of the original gem [vrish88/sinatra_cyclist](https://github.com/vrish88/sinatra_cyclist), thank you vrish88.
 
